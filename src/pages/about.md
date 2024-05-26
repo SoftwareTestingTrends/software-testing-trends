@@ -17,9 +17,9 @@ I am also passionate about new technological changes and love to explore and the
 
 I wish you all the best in your journey to explore and use the available resources to become an exceptional testing professional.
 
+> “We are what we repeatedly do. Excellence, then, is not an act, but a habit” - Aristotle
+
 I would love to hear any suggestions/feedback from you...Also let me know if you have some knowledge that you want to share with all of us. Stay Connected!
 
-Thanks,
+Thanks,  
 Ambreen Khan.
-
-> “We are what we repeatedly do. Excellence, then, is not an act, but a habit” - Aristotle

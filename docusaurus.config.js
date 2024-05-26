@@ -81,7 +81,7 @@ const config = {
           { to: "/blog", label: "Blog", position: "left" },
           { to: "/about", label: "About", position: "left" },
           {
-            href: "https://github.com/facebook/docusaurus",
+            href: "https://github.com/SoftwareTestingTrends/software-testing-trends",
             label: "GitHub",
             position: "right",
           },
@@ -100,19 +100,27 @@ const config = {
             ],
           },
           {
-            title: "Community",
+            title: "Social",
             items: [
               {
-                label: "Stack Overflow",
-                href: "https://stackoverflow.com/questions/tagged/docusaurus",
+                label: "YouTube",
+                href: "https://www.youtube.com/@softwaretestingtrends",
               },
               {
                 label: "Discord",
-                href: "https://discordapp.com/invite/docusaurus",
+                href: "https://discord.gg/FcV2kPQAYn",
+              },
+              {
+                label: "Facebook",
+                href: "https://www.facebook.com/softwaretestingtrend/",
               },
               {
                 label: "Twitter",
-                href: "https://twitter.com/docusaurus",
+                href: "https://x.com/ambysan",
+              },
+              {
+                label: "Instagram",
+                href: "https://www.instagram.com/softwaretestingtrends/",
               },
             ],
           },
@@ -125,7 +133,7 @@ const config = {
               },
               {
                 label: "GitHub",
-                href: "https://github.com/facebook/docusaurus",
+                href: "https://github.com/SoftwareTestingTrends/software-testing-trends",
               },
             ],
           },
