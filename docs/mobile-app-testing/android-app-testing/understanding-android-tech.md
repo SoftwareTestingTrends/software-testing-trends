@@ -20,9 +20,9 @@ sidebar_position: 2
   - Profile the cpu, memory, network with android studio profiler
   - See the logs in the logcat
   - Debug the layout with layout inspector
-- Proguard can be turned on for release builds. (also for debug builds but not advised). This step needs to be done explicitly and is false by default.
+- Proguard can be turned on for release builds(also for debug builds but not advised). This step needs to be done explicitly and is false by default.
 
-Note: these things can be altered in your build.config and you can choose what ever permutation and combination you wish.
+Note: These things can be altered in your build.config and you can choose whatever permutation and combination you wish.
 
 ## What is package id?
 

@@ -66,7 +66,7 @@ const config = {
       // Replace with your project's social card
       image: "img/docusaurus-social-card.jpg",
       navbar: {
-        title: "Software Testing Trends",
+        title: "Home",
         logo: {
           alt: "Software Testing Trends Logo",
           src: "img/software-testing-trends-logo.svg",

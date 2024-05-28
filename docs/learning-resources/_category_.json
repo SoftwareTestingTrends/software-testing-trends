@@ -1,0 +1,8 @@
+{
+  "label": "Learning Resources",
+  "position": 8,
+  "link": {
+    "type": "generated-index",
+    "description": "Explore a library of articles, courses, and tutorials to enhance your testing skills."
+  }
+}
