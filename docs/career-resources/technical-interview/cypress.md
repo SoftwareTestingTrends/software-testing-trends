@@ -78,3 +78,186 @@ Cypress provides several advantages over other testing frameworks, including bui
 * Cypress supports time-travel debugging, allowing developers to go back and forth in time to inspect the application's state during test execution. 
 * The framework's ease of setup, cross-browser support, and seamless integration with popular testing tools contribute to its popularity in the web development community.
 
+## How to run Cypress test?
+
+### Running Cypress in the GUI:
+`npx cypress open`
+
+### Running headlessly:
+`npx cypress run`
+`npx cypress run --spec specname.cy.js`
+
+### Running Cypress in Head mode:
+`npx cypress run --browser firefox --headed`
+
+## How does Cypress handle asynchronous operations in tests?
+Cypress simplifies the handling of asynchronous operations in tests by providing automatic waiting, command chaining, retry-ability, and specialized handling for AJAX requests. This approach contributes to the reliability and stability of tests in dynamic web applications.
+
+1. Automatic Waiting:
+Cypress automatically waits for commands and assertions to succeed before progressing to the next step. This eliminates the need for developers to manually insert waits, sleeps, or timeouts in their test code.
+The framework intelligently observes the DOM and the application's state, ensuring that the test steps execute at the right time.
+2. Command Chaining:
+Cypress commands are chained together, creating a sequential flow of execution. Each command in the chain is automatically waited for before the next one is executed.
+This chaining mechanism allows for a more synchronous-looking code structure, even when dealing with asynchronous operations.
+3. Retry-ability:
+Cypress has built-in retry-ability for commands and assertions. If a command fails due to an asynchronous operation that hasn't completed yet, Cypress will automatically retry the command until it succeeds or times out.
+This retry mechanism enhances the stability of tests, especially when dealing with dynamic web applications.
+4. Handling AJAX Requests:
+Cypress has a built-in mechanism to handle and wait for AJAX requests. It intelligently monitors the network and waits for pending requests to complete before moving on with the test.
+The cy.wait() command can also be used to explicitly wait for specific requests or conditions to be met.
+
+## How does Cypress differ from traditional testing frameworks?
+* Cypress operates directly in the browser and executes tests in the same run loop as the application. This allows for faster, more reliable testing with real-time feedback.
+* Cypress runs directly in the browser, while other testing frameworks use a client-server architecture that interacts with the browser through a WebDriver API. This means Cypress can provide faster and more reliable testing results, while other frameworks may have more setup and configuration requirements.
+
+## Explain the concept of Commands in Cypress.
+Commands in Cypress are reusable functions. 
+The Cypress Commands module allows us to create custom commands, making test scripts more readable and maintainable. These commands are reusable functions defined globally and can be easily invoked within tests. By encapsulating complex actions or assertions, custom commands enhance test clarity and reduce redundancy in the code.
+
+## What is the Cypress Test Runner, and how does it aid in the testing process?
+The Cypress Test Runner is a graphical user interface providing real-time feedback during test development and execution. It facilitates interactive debugging, time-travel features, and command logs.
+
+
+## How does Cypress handle cross-browser testing?
+Cypress supports cross-browser testing by allowing users to configure and execute tests on different browsers such as Chrome, Firefox, and Microsoft Edge. This ensures that web applications function consistently across multiple browsers, enhancing overall compatibility and user experience.
+
+## Can you explain how Cypress handles security-related issues during testing?
+In Cypress, security-related issues during testing are effectively handled through its ability to intercept and modify network requests. By controlling the application's interactions with external resources, Cypress allows developers to address security concerns, including handling cross-origin iframes and ensuring a secure testing environment.
+
+## How would you handle dynamic elements in Cypress tests?
+* Dynamic elements -> that may not be present immediately in the DOM when the test runs.
+* To handle dynamic elements in Cypress tests, we can use commands like cy.get(), which intelligently waits for the element to be present before performing actions or assertions. Additionally, Cypress offers retry-ability for commands, ensuring stability when dealing with dynamic content that may not be immediately available in the DOM.
+
+## How do you handle authentication in Cypress tests?
+In Cypress tests, handling authentication can be achieved using various approaches. One common method is using the `cy.intercept()` command to intercept and modify network requests, such as authentication requests. By stubbing or modifying these requests, we can simulate the authentication process, providing credentials as needed. Additionally, Cypress custom commands or fixtures can be employed for reusability and maintaining a clean test structure when dealing with authentication scenarios.
+
+## What is the purpose of the cy.visit() command in Cypress?
+The cy.visit() command in Cypress is used to navigate to a specified URL, initiating the testing process by loading the target web page into the browser. This command is fundamental in setting up the initial state for your tests.
+
+## Describe the differences between cy.get(), cy.find(), and cy.contains() in Cypress.
+"In Cypress, `cy.get()`, `cy.find()`, and `cy.contains()` are commands used to locate and interact with elements in the DOM. 
+- `cy.get()` is versatile, allowing selection by various attributes.
+- `cy.find()` is used for narrowing down selections within a specific element.
+- `cy.contains()` is effective for finding elements based on their text content. 
+Understanding when to use each command depends on the specific scenario and the preferred selection strategy."
+
+## What is the purpose of the `cy.fixture()` command?
+In Cypress, the cy.fixture() command is used to load external data into tests. This is particularly useful for managing test data separately from the test code. The command reads and provides access to fixture files, allowing for efficient and organized handling of data, such as mock responses or input values, within Cypress tests.
+
+## How do you handle reusability in the Cypress framework?
+You can use custom commands to create reusable functions and actions that can be called from anywhere in your tests. You can also use the Cypress Page Object Model design pattern to store reusable test data or create reusable page objects
+
+## How does Cypress handle asynchronous behavior in tests?
+Cypress automatically waits for commands and assertions to ensure synchronization with the application, eliminating the need for explicit waits or sleep statements.
+
+## What is Cypress Dashboard and what benefits does it offer?
+Cypress Dashboard is a service for recording, storing, and analyzing test runs. It provides insights into test performance, parallelization, and historical trends.
+
+## How can you handle environment variables in Cypress?
+Environment variables can be set using Cypress configuration files (`cypress.json`) or through plugins. They are accessed using `Cypress.env()`.
+
+## What is the purpose of fixtures in Cypress?
+Fixtures in Cypress are used to store and load external data for testing, such as JSON or XML files.
+
+## Explain the difference between `cy.get()` and `cy.find()` in Cypress.
+`cy.get()` is used to select DOM elements, while `cy.find()` is used to find elements within a previously selected element.
+
+## How can you interact with iframes in Cypress?
+Use `cy.iframe()` to interact with elements inside iframes. It allows you to switch context to the iframe and perform actions.
+
+## What is the Cypress Test Runner? 
+The Cypress Test Runner is a graphical interface that provides real-time feedback during test execution. It displays commands, assertions, and allows for easy debugging.
+
+## How does Cypress handle browser events and network requests?
+Cypress intercepts and controls browser events and network requests. This allows for precise control over the application's behavior during tests.
+
+## How do you perform API testing in Cypress?
+Cypress provides a simple and powerful API for interacting with your application and built-in support for network and XHR requests. You can use this API to perform API testing in Cypress    
+
+## What is the purpose of `cy.route()` in Cypress?
+`cy.route()` is used to stub and intercept network requests, allowing you to control the behavior of the application's API calls during tests.
+
+# Additional Notes
+[Applitool University Course: Introduction to Cypress](https://testautomationu.applitools.com/cypress-getting-started/)
+- Cypress is used for browser testing, component testing, E2E, and API testing
+- It doesn't rely on a Webdriver
+- Lack of a hover command or support for multiple browser tabs
+- Cypress commands are triggered by JavaScript.
+- 3 Panels: files, timeline, application under test
+- Cypress uses the Mocha framework for writing test cases.
+- we cannot simulate a hover element that's handled by a CSS property. Note that it is a problem that is easily solvable. You can skip checking whether the element is visible, disabled or not interactive by passing the force:true option into your click command.
+
+```
+cy.get('[data-cy="star"]')
+  .first()
+  .click({force: true})
+```
+- Cypress will not click on an element that's not visible, covered by another element, or any disabled element.
+- The `cy.visit()` function is used in Cypress to visit a URL.
+- You can set a base URL in the `cypress.config.js` file.
+- Cypress Studio is a feature in Cypress that records interactions with a webpage and generates test commands.
+- You can enable Cypress Studio in the project settings.
+- Selectors: 
+  -- You can use the `cy.contains()` command to select an element based on the text it contains
+  -- You can use the `cy.get` command to select an element using its class (with a dot prefix), ID (with a hash symbol), or other HTML attributes (using square brackets for other attributes). 
+  -- The contains command can take two arguments. The first argument would act as the get command. (used for selecting the right parent element)
+  -- Command like first, last, `eq(n)`, next, previous, parent, children, find allows to traverse across the DOM in any direction we need.
+Examples:  
+```
+  cy.contains('new board')
+  cy.get('.board')
+  cy.get('#board-1')
+  cy.get('[data-cy=board-item]')
+  cy.contains('.board', 'new board')
+```  
+- Cypress automatically enforces test isolation by clearing state before each test.
+- The `{force: true}` option in Cypress commands forces the action to execute even if the targeted element is not visible, disabled, or non-interactive
+- Cypress emulate hitting the `Enter` key during testing by typing `{enter}` as part of the type command argument
+E.g: 
+```javascript
+cy.visit('/board/1')
+cy.get('[data-cy="add-list-input"]')
+  .type('new list{enter}')
+```
+
+## Three types of commands in Cypress:
+- Parent Commands: Anything that we usually start off with cy. is a parent command.
+- Child Commands: click, type, or should are child commands as they first need to have a querying command before it.
+- Hybrid commands: These will change their behavior based on whether they are starting the chain or are just continuation of a chain. e.g: contains command
+```
+cy.contains('[data-cy=card]', 'Jun 26 2023')
+
+cy.get('[data-cy=list]')
+  .eq(1)
+  .contains('[data-cy=card]', 'Jun 26 2023')
+```
+- cy.type() -> to enter text into an input field
+- Chaining is embedded into every Cypress command, as is implicit timeout.
+- Cypress is optimized for speed, and that means that once the command is done with its work, it will move on to the next command.
+
+### Default timeOut:
+* You can change `defaultCommandTimeout` in the config file.
+```
+defaultCommandTimeout: 6000
+```
+* You can change `defaultCommandTimeout` just for your test.
+```
+it('chaining and retrying', {defaultCommandTimeout:6000 }, () => {
+})
+```
+* You can change `defaultCommandTimeout` just for your command.
+```
+cy.get('[data-cy=card]', { timeout: 6000 })
+```
+
+# Cypress - Practice Tasks:
+* Automate any Web App using Cypress
+* Mock network requests and responses with Cypress
+* Design Cypress framework from scratch with all the Testing standards
+* Integrate Cypress Test Framework to Jenkins for CI/CD
+
+# Sample Repositories:
+* https://github.com/saurabhd2106/cypress-api-testing-coursera
+  
+# Resources:
+* [60+ Cypress Interview Questions](https://www.lambdatest.com/learning-hub/cypress-interview-questions)
