@@ -29,12 +29,12 @@ A comprehensive repository for quality assurance professionals seeking new oppor
   * [General Interviewing Tips](../career-resources/interviewing/general-interviewing-tips)
   * [Behavioral Interview Preparation](../career-resources/interviewing/behavioural-interview-preparation)  
   * [Common QA Interview Questions](../career-resources/interviewing/common-qa-questions)
-  * [Technical Interview Preparation](../career-resources/interviewing/technical-interview/README.md)
+  * [Technical Interview Preparation](../career-resources/technical-interview/README.md)
   * [DSL Interview Preparation](../data-structures/table-of-content.md)
 * **Starting a new job**
     * [Strategies for Success in the New Team](./success-at-new-company)
     * [Onboarding - QA Lead](./onboarding-qa-lead)
-    * [30 Day Plan](./30-day-plan) 
+    * [30 Day Plan](./thirty-day-plan.md) 
 * **Industry Insights**
     * [Trends & Articles](./quality-trends)
 

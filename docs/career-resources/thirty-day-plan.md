@@ -1,3 +1,7 @@
+---
+sidebar_position: 14
+---
+
 # 30 Day Plan
 
 ## Week 1: Onboarding and Familiarization
