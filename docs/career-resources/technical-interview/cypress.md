@@ -132,7 +132,7 @@ In Cypress, security-related issues during testing are effectively handled throu
 In Cypress tests, handling authentication can be achieved using various approaches. One common method is using the `cy.intercept()` command to intercept and modify network requests, such as authentication requests. By stubbing or modifying these requests, we can simulate the authentication process, providing credentials as needed. Additionally, Cypress custom commands or fixtures can be employed for reusability and maintaining a clean test structure when dealing with authentication scenarios.
 
 ## What is the purpose of the cy.visit() command in Cypress?
-The cy.visit() command in Cypress is used to navigate to a specified URL, initiating the testing process by loading the target web page into the browser. This command is fundamental in setting up the initial state for your tests.
+The `cy.visit()` command in Cypress is used to navigate to a specified URL, initiating the testing process by loading the target web page into the browser. This command is fundamental in setting up the initial state for your tests.
 
 ## Describe the differences between cy.get(), cy.find(), and cy.contains() in Cypress.
 - In Cypress, `cy.get()`, `cy.find()`, and `cy.contains()` are commands used to locate and interact with elements in the DOM. 
@@ -142,7 +142,7 @@ The cy.visit() command in Cypress is used to navigate to a specified URL, initia
 Understanding when to use each command depends on the specific scenario and the preferred selection strategy."
 
 ## What is the purpose of the cy.fixture() command?
-In Cypress, the cy.fixture() command is used to load external data into tests. This is particularly useful for managing test data separately from the test code. The command reads and provides access to fixture files, allowing for efficient and organized handling of data, such as mock responses or input values, within Cypress tests.
+In Cypress, the `cy.fixture()` command is used to load external data into tests. This is particularly useful for managing test data separately from the test code. The command reads and provides access to fixture files, allowing for efficient and organized handling of data, such as mock responses or input values, within Cypress tests.
 
 ## How do you handle reusability in the Cypress framework?
 You can use custom commands to create reusable functions and actions that can be called from anywhere in your tests. You can also use the Cypress Page Object Model design pattern to store reusable test data or create reusable page objects
