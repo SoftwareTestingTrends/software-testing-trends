@@ -1,4 +1,8 @@
-# Onboarding Doc for A New QA Lead
+---
+sidebar_position: 2
+---
+
+# Onboarding - QA Lead
 
 This document serves as a roadmap for your first few months as the new QA Lead, helping you gain a comprehensive understanding of the team, its processes, and the company culture.
 

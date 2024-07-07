@@ -1,3 +1,8 @@
+---
+sidebar_position: 1
+---
+
+# Success at new company
 ## Success Strategies for a QA Engineer in the New Team
 
 Here are some tips on how to succeed as a QA engineer at a new team or company:

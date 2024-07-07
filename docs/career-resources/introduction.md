@@ -32,9 +32,9 @@ A comprehensive repository for quality assurance professionals seeking new oppor
   * [Technical Interview Preparation](../career-resources/technical-interview/README.md)
   * [DSL Interview Preparation](../data-structures/table-of-content.md)
 * **Starting a new job**
-    * [Strategies for Success in the New Team](./success-at-new-company)
-    * [Onboarding - QA Lead](./onboarding-qa-lead)
-    * [30 Day Plan](./thirty-day-plan.md) 
+    * [Strategies for Success in the New Team](./new-job/success-at-new-company)
+    * [Onboarding - QA Lead](./new-job/onboarding-qa-lead)
+    * [30 Day Plan](./new-job/thirty-day-plan) 
 * **Industry Insights**
     * [Trends & Articles](./quality-trends)
 
