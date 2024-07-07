@@ -1,8 +1,8 @@
 ---
 sidebar_position: 2
-title: "Data Structure & Algorithm"
-metaTitle: "Data Structure & Algorithm"
-metaDescription: "Data Structure & Algorithm"
+title: "Practice Questions"
+metaTitle: "Practice Questions - Data Structure & Algorithm"
+metaDescription: "Practice Questions - Data Structure & Algorithm"
 ---
 
 # Strings
