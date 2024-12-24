@@ -2,7 +2,7 @@
 slug: Mastering Performance Reviews
 title: "QA Engineer's Guide to Performance Reviews"
 authors: [ambreen]
-tags: [welcome]
+tags: [career]
 ---
 
 # QA Engineer's Guide to Performance Reviews

@@ -2,7 +2,7 @@
 slug: Owing QA Career
 title: Owning Your Career as a Software QA Engineer
 authors: [ambreen]
-tags: [welcome]
+tags: [career]
 ---
 
 # Owning Your Career as a Software QA Engineer
@@ -17,7 +17,9 @@ This means setting clear career goals and actively working towards them. Want to
 ## Document Your Success Story
 One of the most powerful yet underutilized tools for career growth is maintaining a detailed work log. Every day, spend five minutes documenting your accomplishments, challenges faced, and solutions implemented. This practice serves multiple purposes:
 
-It helps you track your growth over time and identify patterns in your work. When it's time for your performance review, you'll have concrete examples of your contributions. Most importantly, it helps you reflect on your learning experiences and areas where you might need to develop further skills.
+* It helps you track your growth over time and identify patterns in your work. 
+* When it's time for your performance review, you'll have concrete examples of your contributions. 
+* Most importantly, it helps you reflect on your learning experiences and areas where you might need to develop further skills.
 
 ## Master the Art of Feedback
 Quality feedback is the cornerstone of growth in QA engineering. Don't wait for formal review cycles – actively seek feedback from developers, product managers, and fellow QA engineers. Ask specific questions: "How could I have made my bug report more actionable?" or "What could I improve in my test planning process?"
