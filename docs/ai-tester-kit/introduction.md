@@ -17,7 +17,7 @@ AI systems behave differently than traditional software. They learn and adapt, m
 * Ensuring Ethical AI: Identifying and addressing potential biases or unintended harm caused by AI systems.
 * Building Trust: Verifying that AI models meet quality standards and perform as intended.
 
-## What You'll Find on This Site
+## What You'll Find in This Section
 
 ### Generative AI Powered Testing
 Learn how to leverage generative AI for software testing. We'll cover prompt engineering, providing pre-written prompts for common tasks and explaining how to integrate generative AI seamlessly into your existing workflow.
