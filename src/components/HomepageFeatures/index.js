@@ -45,7 +45,7 @@ const FeatureList = [
         achieve better coverage.
       </>
     ),
-    link: "https://aitesterkit.com/",
+    link: "./docs/ai-tester-kit/introduction",
   },
   {
     title: "Testing Tools",

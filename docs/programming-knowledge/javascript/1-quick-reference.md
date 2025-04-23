@@ -1,8 +1,8 @@
 ---
 sidebar_position: 2
 title: "Quick Reference"
-metaTitle: "Quick Referencee"
-metaDescription: "TQuick Reference"
+metaTitle: "Quick Reference"
+metaDescription: "Quick Reference"
 ---
 
 ## Data Types in JavaScript

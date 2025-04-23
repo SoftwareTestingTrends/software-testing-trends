@@ -1,6 +1,6 @@
 ---
-sidebar_position: 5
-title: 'Python'
+sidebar_position: 1
+title: 'Python Essentials'
 metaTitle: 'Python Notes'
 metaDescription: 'Python Notes'
 ---
