@@ -234,7 +234,35 @@ or
 
 You can manually inspect and delete any large folders corresponding to unused environments **only if you're sure they're not needed**.
 
+### Quick Tip
+Here's a one-liner command that lists **all Conda environments** and shows their **disk usage**, sorted by size:
 
+```bash
+du -sh $(conda env list | awk '{print $NF}' | grep -E '^/|^/Users|^/opt') 2>/dev/null | sort -hr
+```
+
+---
+
+### What this does:
+
+* `conda env list`: Lists all environments.
+* `awk '{print $NF}'`: Extracts the path from each line.
+* `grep -E '^/|^/Users|^/opt'`: Filters only actual environment paths (skips the header).
+* `du -sh`: Shows disk usage in human-readable format.
+* `sort -hr`: Sorts output from largest to smallest.
+
+---
+
+### Example Output:
+
+```
+2.3G    /opt/anaconda3/envs/ai_projects
+1.9G    /opt/anaconda3
+1.4G    /Users/abc/anaconda3/envs/mlflow-d758da66ae6b5dac8a2b69972cb371638d4cc6f3
+...
+```
+
+This helps you **identify which environments are consuming the most space** so you can clean up the largest, unused ones.
 
 
 
